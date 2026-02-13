@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1771005959.83253 "/mnt/c/Users/magae_ty0qkbb/spick/semester1/An1a/main.tex" "main.pdf" "main" 1771005966.5287 0
+["pdflatex"] 1771004367.43655 "/mnt/c/Users/magae_ty0qkbb/spick/semester1/An1a/main.tex" "main.pdf" "main" 1771004371.493 0
   "/etc/texmf/web2c/texmf.cnf" 1769431356.78123 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/mnt/c/Users/magae_ty0qkbb/spick/semester1/An1a/main.tex" 1770390314.99005 1819 bbd69fd9c291d2c5b26a9a4f7682bb4f ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -322,14 +322,14 @@
   "images/exp-funktion.PNG" 1770976678.89749 39296 1cb73697d717a840c239871bb1e973d8 ""
   "images/ln-funktion.PNG" 1770976683.78962 30593 12744f8f0d716e266ff1ea65d56b2130 ""
   "images/stetigkeit.PNG" 1770985729.03791 616248 293bd749be68b7238b63ad364c6804d2 ""
-  "main.aux" 1771005964.91125 19605 a80e1c9b2f604e60d7df506dfc9039e7 "pdflatex"
-  "main.out" 1771005964.92881 7592 fab588639ac3447103cb812f9b5f8c79 "pdflatex"
+  "main.aux" 1771004371.78048 19605 a80e1c9b2f604e60d7df506dfc9039e7 "pdflatex"
+  "main.out" 1771004371.79953 7592 fab588639ac3447103cb812f9b5f8c79 "pdflatex"
   "main.tex" 1770390314.99005 1819 bbd69fd9c291d2c5b26a9a4f7682bb4f ""
   "preamble.tex" 1769768031.03255 26033 79baf711962193c9fe9d643bb4e15d73 ""
-  "sections/01_Reelle_Zahlen.tex" 1771005955.56605 12166 47bf12e7329f8aeb1e4cdb8f2fbf03fd ""
-  "sections/02_Funktionen.tex" 1771005955.56605 15387 6ed76fcdff1596251d054ebbe4df856b ""
-  "sections/03_FolgenundReihen.tex" 1771005955.56706 9480 f1e26a1c1243446c0422e710ad4c5afc ""
-  "sections/04_Grenzwerte.tex" 1771005955.56706 11794 1d9736749b12a6a021e992c9ce966e36 ""
+  "sections/01_Reelle_Zahlen.tex" 1770983225.21992 12167 030bb27fd61721c6f7867fbd7d01a978 ""
+  "sections/02_Funktionen.tex" 1770383508.5395 15097 583f0270b0d0aeb1c46786dffb331203 ""
+  "sections/03_FolgenundReihen.tex" 1770995578.10925 9192 1073b40f79312ce3d543287dced81805 ""
+  "sections/04_Grenzwerte.tex" 1771004367.47737 11505 3643b48829c55c6dc66e3ccfbf0bdf72 ""
   (generated)
   "main.aux"
   "main.log"
