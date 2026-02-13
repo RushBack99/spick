@@ -1,0 +1,202 @@
+%----------------------------------------------------------------------------------------------
+%----------------------------------     3 Folgen & Reihen    ----------------------------------
+%----------------------------------------------------------------------------------------------
+
+\section{Folgen und Reihen}{19, 470}
+
+\begin{tabular}{ll | ll} 
+    Exponentialgesetze:     & S. 8      & Logarithmengesetze:   & S. 9  \\
+    Grenzwerts"atze:        & S. 471    &                               \\
+\end{tabular}
+
+%----------------------------------------------------------------------------------------------
+%--------------------------     3.1 Spezielle Folgen und Reihen     ---------------------------
+%----------------------------------------------------------------------------------------------
+\subsection{Spezielle Folgen und Reihen}{20}
+
+\renewcommand{\arraystretch}{1.4}
+\begin{tabular}{llll}
+    Arithmetische Folge:    & Bronstein S.19            & $a_{i+1} = a_i + i \cdot d$       & $d = \Delta a_i =  a_{i+1} - a_i$       \\
+    Geometrische Folge:     & Bronstein S.20            & $a_{i} = q^i \cdot a_0 $          & $q = \frac{a_{i+1}}{a_i}$ \\
+    Spezielle Reihen        & Bronstein S.20 
+\end{tabular}
+
+%----------------------------------------------------------------------------------------------
+%--------------------------     3.2 Beschränktheit / Monotonie     ----------------------------
+%----------------------------------------------------------------------------------------------
+\renewcommand{\arraystretch}{1}	
+\subsection{Beschränktheit / Monotonie}{51, 470}
+
+\subsubsection{Beschränktheit}
+\hspace{0.2cm}
+$W_f \subset [a ; b]$ und $a, \, b \in \mathbb{R}$		
+
+
+\subsubsection{Monotonie}
+\hspace{0.2cm}
+\begin{tabular}{cccc}
+    \toprule
+    $d^{(1)} \ge 0$ & $q^{(2)} \ge 1$ & monoton wachsend & $\uparrow$ \\
+    \midrule
+    $d > 0$ & $q > 1$ & streng monoton wachsend & $\Uparrow$ \\
+    \midrule
+    $d \le 0$ & $0 < q \le 1$ & monoton fallend & $\downarrow$ \\
+    \midrule
+    $d < 0$ & $0 < q < 1$ & streng monoton fallend & $\Downarrow$ \\
+    \bottomrule
+\end{tabular}\\
+
+\begin{tabular}{ll}
+    $(1)$ $d$ arithmetische Folge &
+    $(2)$ $q$ geometrische Folge ($a_1 > 0$)
+\end{tabular}
+
+%----------------------------------------------------------------------------------------------
+%--------------------------     3.3 Konvergenz / Divergenz     ----------------------------
+%----------------------------------------------------------------------------------------------
+\subsection{Konvergenz / Divergenz}{471}
+
+\subsubsection{Konvergenz}
+
+Es existiert ein Grenzwert g $\in \mathbb{R}$
+$$ \text{Toleranzungleichung:} \quad \vert a_n - g \vert < \varepsilon  \text{ mit } \varepsilon > 0 $$
+Gesucht ist ein $n_0$, ab welchem alle Werte von $n \geq n_0$ in $U_\varepsilon(g)$ liegen.
+
+
+\subsubsection{Bestimmt divergent gegen +$\infty$}
+
+$$ \text{Ungleichung:} \quad f_n > K \text{ wenn } n \geq  n_0 \text{ f"ur } K > 0 $$
+
+
+\subsubsection{Bestimmt divergent gegen -$\infty$}
+
+$$ \text{Ungleichung:} \quad f_n < k \text{ wenn } n \geq  n_0 \text{ f"ur } k < 0 $$
+
+
+\subsubsection{Unbestimmt divergent}
+
+$$ \text{Alles, was nicht konvergent oder bestimmt divergent ist} $$
+
+%----------------------------------------------------------------------------------------------
+%----------------------------------     3.4 Grenzwerte     ------------------------------------
+%----------------------------------------------------------------------------------------------
+\subsection{Grenzwerte}{471}
+
+Die Folgen ${\textcolor{red}{a_n}}$ und ${\textcolor{blue}{b_n}}$ sind konvergent!\vspace{0.5em}
+\\
+\renewcommand{\arraystretch}{2}
+\begin{tabular}{ll}
+    $\lim\limits_{n \to \infty} \abs{\textcolor{red}{a_n}}$ \quad \;\;\; $=$   $\abs{\lim\limits_{n \to \infty} \textcolor{red}{a_n}} $\\
+
+    $\lim\limits_{n \to \infty} \left(\textcolor{red}{a_n} + \textcolor{blue}{b_n}\right)$  $=$   $\lim\limits_{n \to \infty} \textcolor{red}{a_n} + \lim\limits_{n \to \infty} \textcolor{blue}{b_n}$ &
+    $\lim\limits_{n \to \infty} \left(\textcolor{red}{a_n} - \textcolor{blue}{b_n}\right)$  $=$   $\lim\limits_{n \to \infty} \textcolor{red}{a_n} - \lim\limits_{n \to \infty} \textcolor{blue}{b_n}$\\
+    
+    $\lim\limits_{n \to \infty} \left(\textcolor{red}{a_n} \cdot \textcolor{blue}{b_n}\right)$ \; $=$   $\lim\limits_{n \to \infty} \textcolor{red}{a_n} \cdot \lim\limits_{n \to \infty} \textcolor{blue}{b_n}$ &
+    $\lim\limits_{n \to \infty} \left(\frac{\textcolor{red}{a_n}}{\textcolor{blue}{b_n}}\right)$ \quad \;\:\, $=$   $\frac{\lim\limits_{n \to \infty} \textcolor{red}{a_n}}{\lim\limits_{n \to \infty} \textcolor{blue}{b_n}}$, \quad für $\lim\limits_{n \to \infty} \textcolor{blue}{b_n} \neq 0$ 
+\end{tabular}
+
+\newpage
+
+%----------------------------------------------------------------------------------------------
+%----------------------------------     3.4 Grenzwerte     ------------------------------------
+%----------------------------------------------------------------------------------------------
+\subsection{Rechnen \texorpdfstring{$\Longrightarrow \infty$}{→ ∞}}
+
+\subsubsection{Bestimmte Formen}
+
+\renewcommand{\arraystretch}{2}
+\begin{tabular}{lll}
+    $\infty + \infty = \infty$      & $-\infty - \infty = -\infty$          & $0 \cdot [a,b] = 0 \cdot \text{beschr"ankt} = 0$  \\
+    $g + \infty = \infty$           & $g - \infty = -\infty$                & 	$(g \in \mathbb{R})$                            \\
+    $\infty \cdot \infty = \infty$  &	$-\infty \cdot (\infty) = -\infty$  &
+    $g \cdot \infty =
+    \begin{cases}
+        \infty   & g > 0 \\ 
+        -\infty & g < 0 
+    \end{cases}$        \\ 		
+    $\frac{1}{\infty} = 0$          &	$\frac{g}{\infty} = 0$              & 	$g \in \mathbb{R}$	                            \\
+    $\frac{\infty}{0+} = \infty$	& $\frac{\infty}{0-} = -\infty$
+    & $\frac{\infty}{g} =
+    \begin{cases}			
+        \infty & g > 0 \\
+        -\infty & g < 0
+    \end{cases} $ \\
+    $\frac{1}{0+} = \infty$         & $\frac{1}{0-} = -\infty$	            & $g \in \mathbb{R} - {0}$                          \\
+\end{tabular}
+
+\vspace{0.2cm}
+
+\begin{tabular}{lcl}
+    $\frac{g}{0+} = 
+    \begin{cases}					
+        \infty & g > 0 \\
+        -\infty & g < 0
+    \end{cases} $ & 
+    &
+    $\frac{g}{0-} =
+    \begin{cases}				
+        -\infty & g > 0 \\
+         \infty & g < 0
+    \end{cases}$ \\ 
+\end{tabular}
+\renewcommand{\arraystretch}{1}
+
+\subsubsection{Unbestimmte Formen}
+
+
+\begin{tabular}{lllllll}
+    $\frac{0}{0} = ?$       & $\frac{\infty}{\infty} = ?$   & $\infty \cdot 0 = ?$  & $\infty^0 = ?$ & $0 \cdot \infty = ?$    & $\infty - \infty = ?$         & $0^0 = ?$     \\
+\end{tabular}
+
+\vspace{0.2cm}
+
+\begin{tabular}{ll}
+    $1^{\infty} = ?$    & Ausser 1 ist eine Konstante, dann gilt $1^{\infty} = 1 $
+\end{tabular}
+
+%----------------------------------------------------------------------------------------------
+%--------------------------     3.6 Grenzwerte gegen unendlich     ----------------------------
+%----------------------------------------------------------------------------------------------
+\subsection{Grenzwerte \texorpdfstring{$\longrightarrow \infty$}{→ ∞}}
+\[
+    \lim\limits_{n \to \infty}\left(\frac{-2n^2+4n-5}{8n^2-3n+7}\right)
+\]
+\begin{tabular}{lcl}
+    $ \displaystyle{f(n)= \frac{-2n^2+4n-5}{8n^2-3n+7}}$                    & Algebraisch erweitern mit $\frac{1}{n^2}$: & $\displaystyle{f(n)=\frac{-2+\frac{4}{n}-\frac{5}{n^2}}{8-\frac{3}{n}+\frac{7}{n^2}}}$\\
+    $ \displaystyle{f(n)=\frac{-2+\frac{4}{n}-\frac{5}{n^2}}{8-\frac{3}{n}+\frac{7}{n^2}}}$ & $\xrightarrow{n \to \infty}$               & $\displaystyle{f(n)=\frac{-2}{8} = -\frac{1}{4}}$
+\end{tabular}\\
+
+\[
+    \lim\limits_{n \to \infty}\left(\frac{-2n^2(4n-5)}{8n^2(-3n+7)}\right)
+\]
+\begin{tabular}{lcl}
+    $ \displaystyle{f(n)= \frac{-2n^2(4n-5)}{8n^2(-3n+7)}}$                 & Algebraisch erweitern mit $\frac{1}{n^3}$: & $\displaystyle{f(n)=\frac{-8+\frac{10}{n}}{-24+\frac{56}{n}}}$\\
+    $ \displaystyle{f(n)=\frac{-8+\frac{10}{n}}{-24+\frac{56}{n}}}$         & $\xrightarrow{n \to \infty}$               & $\displaystyle{f(n)=\frac{-8}{-24} = \frac{1}{3}}$ 
+\end{tabular}
+
+%----------------------------------------------------------------------------------------------
+%--------------------------------     3.7 Bolzano-Prinzip     ---------------------------------
+%----------------------------------------------------------------------------------------------
+\subsection{Bolzano-Prinzip}
+
+\textbf{Jede beschränkte, monotone Zahlenfolge ist konvergent!}
+
+\example{Grenzwert von rekursiver Folge}
+
+$$ \text{Folge:} \quad a_1 = \frac{1}{4} ; a_{n+1} = a_n^2 + \frac{1}{4} $$ 
+
+%TODO: enumerate Layout
+\begin{enumerate}
+	\item Monotonie \\
+		Beweisen mit Ansatz $a_{n+1} \geq a_n$ bzw. $a_{n+1} \leq a_n \rightarrow$ Induktion
+
+	\item Beschränktheit \\
+		Erste Schranke = Erster Wert der Reihe \\
+		Zweite Schranke: Annahme, es gibt Grenzwert $g$ und er ist Supremum bzw. Infimum
+
+	\item Beweisen (oder widerlegen), dass $g$ $\sup$ bzw. $\inf$ ist \\
+		Ansatz: $a_n \leq g$ bzw. $a_n \geq g$ mit vollständiger Induktion beweisen
+\end{enumerate}
+
+\columnbreak
+

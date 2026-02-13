@@ -1,0 +1,308 @@
+%----------------------------------------------------------------------------------------------
+%------------------------------------     2 Funktionen     ------------------------------------
+%----------------------------------------------------------------------------------------------
+
+\section{Funktionen}{49}
+
+\begin{tabular}{ll ll ll} 
+    Monotonie: & S. 51 & Beschränktheit: & S. 52 & Umkehrfunktion: & S. 53 
+\end{tabular}
+
+%----------------------------------------------------------------------------------------------
+%--------------------------     2.1 Schreibweise von Funktionen     ---------------------------
+%----------------------------------------------------------------------------------------------
+\subsection{Schreibweise von Funktionen}
+
+{\setlength{\tabcolsep}{8pt}
+\begin{tabular}{lll}
+    $f: \mathbb{D}_f \rightarrow \mathbb{W}_f$ mit $x \mapsto f(x)$               &   $f: x \mapsto f(x)$                &   $y = f(x)$ mit $x \in \mathbb{D}_f$ \\\\
+    $f^{-1} : \mathbb{W}_f \rightarrow \mathbb{D}_f$ mit $y \mapsto f^{-1}(y)$    &   $f^{-1} : y \mapsto f^{-1}(y)$     &   $x = f^{-1}(y)$ mit $y \in \mathbb{W}_f$
+\end{tabular}}
+
+%----------------------------------------------------------------------------------------------
+%--------------------------     2.2 Eigenschaften von Funktionen     --------------------------
+%----------------------------------------------------------------------------------------------
+\subsection{Eigenschaften von Funktionen}
+
+\begin{tabular}{ll}
+    Monotonie:      & Siehe Bronstein S. 51 \\
+    Beschränktheit: & Siehe Bronstein S. 52 \\
+    Umkehrbarkeit:  & Streng monotone Funktionen sind umkehrbar \\
+    Restriktion:    & Nur einen Teil von $D_f$ betrachten \textrightarrow\ Umkehrbarkeit
+\end{tabular}
+
+
+%----------------------------------------------------------------------------------------------
+%--------------------------------     2.3 Transformationen     --------------------------------
+%----------------------------------------------------------------------------------------------
+\subsection{Transformationen}
+
+\renewcommand{\arraystretch}{1.4}
+\begin{tabular}{cll}
+\textbf{Nr.} & \textbf{Transformation} & \textbf{Funktionsgleichung} \\ \hline
+    1 & Streckung in $x$-Richtung um $\frac{1}{a}$          & $y = f(a x)$ \\
+      & Spiegelung an der $y$-Achse (bei $a<0$)             & $y = f(a x)$ \\[0.3em]
+
+    2 & Verschiebung nach links ($+b$) oder rechts ($-b$)   & $y = f(x \pm b)$ \\[0.3em]
+
+    3 & Streckung in $y$-Richtung um $c$                    & $y = c \cdot f(x)$ \\
+      & Spiegelung an der $x$-Achse (bei $c<0$)             & $y = c \cdot f(x)$ \\[0.3em]
+
+    4 & Verschiebung nach oben ($+d$) oder unten ($-d$)     & $y = f(x) \pm d$
+\end{tabular}\\
+
+\renewcommand{\arraystretch}{0.5}
+\underline{\textbf{Beispiel: Transformation}}\\
+\[
+f(x) = \ln(x) \;\longrightarrow\; g(x) = \frac{2}{3}\,\ln\;\bigl((3x+2)\cdot 5\bigr)
+\]
+
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{lll}
+    Streckung in $x$-Richtung um $\frac{1}{3}$  &   & $\ln(3x)$ \\
+    Verschiebung nach links um $\frac{2}{3}$    &   & $\ln(3x + 2)$ \\
+    Verschiebung nach oben um $\ln(5)$          &   & $\ln(3x+2) + \ln(5) = \ln\bigl((3x+2)\cdot 5\bigr)$ \\
+    Stauchung in $y$-Richtung um $\frac{2}{3}$  &   & $\displaystyle \frac{2}{3}\cdot \ln\bigl((3x+2)\cdot 5\bigr)$
+\end{tabular}
+
+
+
+%----------------------------------------------------------------------------------------------
+%-------------------     2.4 Greade / Ungerade / Periodische Funktionen     -------------------
+%----------------------------------------------------------------------------------------------
+\subsection{Greade / Ungerade / Periodische Funktionen}
+
+\renewcommand{\arraystretch}{1}
+{\setlength{\tabcolsep}{4pt}
+\begin{tabular}{llll} 
+        Gerade:     & $f(-x) = f(x)$        & symmetrisch zu $y$-Achse      &     $(-x)^2 = x^2$ \\
+        Ungerade:   & $f(-x) = -f(x)$       & punktsymmetrisch Nullstelle   &     $(-x)^3 = -(x^3)$ \\
+        Periodisch: & $f(x) = f(x \pm p)$   & wiederholend mit Periode $p$	&     $\sin(x) = \sin(x+2\pi)$					
+\end{tabular}}
+
+%----------------------------------------------------------------------------------------------
+%-----------------------     2.5 Verkettung oder Mittelbare Funktion     ----------------------
+%----------------------------------------------------------------------------------------------
+\subsection{Verkettung oder Mittelbare Funktion}
+
+\renewcommand{\arraystretch}{1.3}
+{\setlength{\tabcolsep}{6pt}
+\begin{tabular}{lll}
+$ h(x) = g(f(x)) = (g \circ f)(x)$ & $ f(x) = 2x + 1 \;;\; g(x) = x^2$ & $\mathbb{D}_h = \mathbb{D}_f$ \\
+                                   & $ h(x) = g(f(x)) = (2x + 1)^2$    & $\mathbb{W}_h = \mathbb{W}_g$ \\
+\\
+$ h(x) = f(g(x)) = (f \circ g)(x)$ & $ g(x) = x^2 \;;\; f(x) = 2x + 1$      & $\mathbb{D}_h = \mathbb{D}_g$ \\
+                                   & $ h(x) = f(g(x)) = 2\cdot(x^2) + 1$    & $\mathbb{W}_h = \mathbb{W}_f$ 
+\end{tabular}}\\ \\
+\begin{tabular}{lc}
+    Reihenfolge ist entscheidend: & $ g \circ f \neq f \circ g$
+\end{tabular}
+
+%----------------------------------------------------------------------------------------------
+%---------------------------------     2.6 Polynom Funktion     -------------------------------
+%----------------------------------------------------------------------------------------------
+\subsection{Polynom Funktionen}{65}
+
+\renewcommand{\arraystretch}{1.6}
+\begin{tabular}{lll}
+    Lineare Funktion:       & $ y = f(x) = ax+b$            & $ -\frac{b}{a}$\\
+    Quadratische Funktion:  & $ y = f(x) = ax^2+bx+c$       & $\frac{-b \pm \sqrt{(b^2-4ac)}}{2a}$ 
+\end{tabular}
+\begin{tabular}{ll}
+    Polynom n-ten Grades:   & $ y = f(x) = a_nx^n + a_{n-1}x^{n-1} + \ldots + a_1x^1 + a_0$
+\end{tabular}
+
+%----------------------------------------------------------------------------------------------
+%-----------------------------     2.7 Ganzratinale Funktionen     ----------------------------
+%----------------------------------------------------------------------------------------------
+\subsection{Ganzratinale Funktionen}{63}
+\[
+f(x) = a_nx^n + a_{n-1}x^{n-1} + \ldots + a_1x^1 + a_0
+\]
+
+\renewcommand{\arraystretch}{1.4}
+\begin{tabular}{ll}
+    \textbf{Lineare Funktion:}          &     $ x = -\frac{b}{a}$\\
+    \textbf{Quadratische Funktion:}     &     $ x_1,\; x_2 = \frac{-b \pm \sqrt{(b^2-4ac)}}{2a}$\\
+    \textbf{Polynom n-ten Grades:}      &     Binomen oder Hornerschema\;(2.9)
+\end{tabular}\\
+\begin{tabular}{l}
+    $\Rightarrow$ Eine Funktion vom Grad $n$ hat \textbf{höchstens} $n$ verschiedene Nullstellen!
+\end{tabular}
+
+%----------------------------------------------------------------------------------------------
+%----------------------------------     2.8 Hornerschema     ----------------------------------
+%----------------------------------------------------------------------------------------------
+\subsection{Hornerschema}{966}
+
+Zerlegt eine ganzrationale Funktion vom Grad $n$ in einen Linearfaktor (Nullstelle) und ein Polynom vom Grad $n-1$
+
+\subsubsection{Vorgehen Hornerschema}
+
+\begin{enumerate}
+    \item Nullstelle $x_0$ raten
+    \item Von oben nach unten summieren
+    \item Diagonal nach rechts mit $x_0$ multiplizieren
+\end{enumerate}	
+
+\vspace{1em}
+
+\renewcommand{\arraystretch}{1.1}
+{\setlength{\tabcolsep}{2pt}
+\begin{tabular}{c c}
+    {\setlength{\tabcolsep}{6pt}
+    \begin{tabular}{l| c c c c c}
+                & $a_n$      & $a_{n-1}$      & $\ldots$      & $a_1$         & $a_0$ \\
+        $x_0$   &            & $a'_{n-1}x_0$  & $\ldots$      & $a'_{1}x_0$   & $a'_{0}x_0$ \\
+        \hline
+                & $a'_{n-1}$ & $a'_{n-2}$     & $\ldots$      & $a'_{0}$      & $f(x_0)$ \\
+        $x_0$   &            & $a''_{n-2}x_0$ & $\ldots$      & $a''_{0}x_0$ \\
+        \hline
+                & $a''_{n-2}$ & $a''_{n-3}$   & $\ldots$      & $f'(x_0)$
+    \end{tabular}}
+    &
+    \begin{tabular}{l}
+        $\Rightarrow f^{(n)}(x_0) = 0 \rightarrow$ Nullstelle\\
+        $\Rightarrow f^{(n)}(x_0) \neq 0 \rightarrow$ $y$-Stelle\\
+    \end{tabular}
+\end{tabular}}\\ \\
+
+\subsubsection*{Bsp. Hornerschema: \;\; $x^3+x-10=0$}
+
+{\setlength{\tabcolsep}{6pt}
+\begin{tabular}{c c}
+    {\setlength{\tabcolsep}{6pt}
+    \begin{tabular}{l| r r r r}
+                & $1$        & $0$            & $1$             & $-10$ \\
+        $2$     &            & $1 \cdot 2$    & $2 \cdot 2$     & $10$ \\
+        \hline
+                & $1$        & $2+0$          & $4+1$           & $10-10$\\
+    \end{tabular}}
+    \begin{tabular}{l}
+        $\Rightarrow f(x) = (x-2)(x^2+2x+5)$ \\
+    \end{tabular}
+\end{tabular}}
+
+%----------------------------------------------------------------------------------------------
+%---------------------------     2.9 Gebrochenratinale Funktionen     -------------------------
+%----------------------------------------------------------------------------------------------
+\subsection{Gebrochenratinale Funktionen}{63m 67}
+
+\[
+f(x) = \frac{P_n(x)}{Q_m(x)} = \frac{a_nx^n + a_{n-1}x^{n-1} + \ldots + a_1x^1 + a_0}{b_mx^m + b_{m-1}x^{m-1} + \ldots + b_1x^1 + b_0}
+\]
+
+\begin{tabular}{l l}
+    Echt gebrochen      &   $n < m$ \\
+    gleich Gradig       &   $n = m$ \\
+    Unecht gebrochen    &   $n > m$
+\end{tabular}
+
+\vspace{0.2cm}
+Jede unecht gebrochene Funktion lässt sich als Summe einer ganzrationalen Funktion und einer echt gebrochenen Funktion schreiben. $\Rightarrow$ \textbf{Polynomdivision}
+
+%----------------------------------------------------------------------------------------------
+%---------------------------------     2.10 Polynomdivision     --------------------------------
+%----------------------------------------------------------------------------------------------
+\subsection{Polynomdivision }{15}
+
+Liefert Summe aus \textbf{ganzrationaler Funktion} und \textbf{echt gebrochener Funktion}.
+\[
+R(x) = \frac{P_4(x)}{Q_2(x)} = \frac{3x^4 - 10x^3 + 22x^2 - 24x + 10}{x^2 - 2x - 3}, \quad n > m \;\; \Rightarrow \text{unecht gebrochen}
+\]
+
+\[
+\makebox[270pt][l]{%
+\begin{tabular}{@{}l@{}}
+$(3x^4 - 10x^3 + 22x^2 - 24x + 10) \; : \; (x^2 - 2x + 3)$ \\[1pt]
+
+$\;3x^2 \cdot (x^2 - 2x + 3)$ \\[-6pt]
+\rule{3.5cm}{0.4pt} \\[-2pt]
+
+\hspace*{0.6cm}$-\;4x^3 + 13x^2 - 24x + 10$ \\[1pt]
+
+\hspace*{0.6cm}$-\; 4x \cdot (x^2 - 2x + 3)$ \\[-6pt]
+\quad \quad \,\rule{2.9cm}{0.4pt} \\[-2pt]
+
+\hspace*{1.7cm}$5x^2 - 12x + 10$ \\[1pt]
+
+\hspace*{1.7cm}$5 \cdot (x^2 - 2x + 3)$ \\[-6pt]
+\quad \quad \quad \quad \quad \,\rule{2.1cm}{0.4pt} \\[-2pt]
+
+\hspace*{2.45cm}$-\;2x - 5 \quad \quad \quad\Rightarrow \quad \quad \quad R(x) = 3x^2 - 4x + 5 + \frac{2x - 5}{x^2 - 2x + 3}$ \\[1pt]
+\end{tabular}}
+\]
+
+%----------------------------------------------------------------------------------------------
+%-----------------------------     2.11 Partialbruchzerlegung     -----------------------------
+%----------------------------------------------------------------------------------------------
+\subsection{Partialbruchzerlegung}{15}
+
+Jede echt gebrochenrationale Funktion kann eindeutig in eine Summe von Partialbrüchenmit teilfremden \textit{Zähler-} und \textit{Nennerpolynom} zerlegt werden.
+\vspace{0.1cm}
+
+\subsubsection{Vorgehen Partialbruchzerlegung}
+\begin{tabular}{l l}
+$(1)$   & \hspace{5.5pt}kontrolle echt gebrochen $(n < m)$
+\end{tabular}\\
+\begin{tabular}{l l l}
+        & \hspace{13.5pt} Ja: $\Rightarrow$ (2) & Nein: $\Rightarrow$ Polynomdivision \\
+\end{tabular}\\
+\begin{tabular}{l l}
+    $(2)$   & Nenner faktorisieren (pro Faktor ein Teilbruch)\\
+    $(3)$   & Berechnung Zählerkonstanten\\
+    $(3.1)$ & Gleichnahmig machen\\
+    $(3.2)$ & Zählergleichung\\
+    $(3.3)$ & Einsetzen von ’guten’ $x$-Werten
+\end{tabular}\\
+\subsubsection{Fälle Partialbruchzerlegung:}
+
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{l l}
+    Fall$\;1$   & $ \frac{a_nx^n + \ldots + a_0}{(x-\alpha_1)(x-\alpha_2)\ldots(x-\alpha_m)}  = \; \frac{A_1}{x-\alpha_1} + \frac{A_2}{x-\alpha_2} + \ldots + \frac{A_m}{x-\alpha_m}$\\
+    Fall$\;2$   & $ \frac{a_nx^n + \ldots + a_0}{(x-\alpha_1)^{k_1}\ldots(x-\alpha_m)^{k_l}} \;\,\, = \;\; \frac{A_1}{x-\alpha_1} + \ldots + \frac{A_{k_1}}{(x-\alpha_1)^{k_1}} + \ldots + \frac{M_1}{x-\alpha_m} + \ldots + \frac{M_{k_{\scriptscriptstyle l}}}{(x-\alpha_m)^{k_l}}$\\
+    Fall$\;3$   & $ \frac{a_nx^n + \ldots + a_0}{(x-\alpha_1)^{k_1}\ldots(x^2+p_1x+q_1)^{k_l}}\;\,\, = \;\; \frac{A_1}{x-\alpha_1} + \ldots + \frac{B}{x-\alpha_2} + \ldots + \frac{C_{k_{\scriptscriptstyle l}}x+D_{k_l}}{(x^2+p_1x+q_1)^{k_l}}$\\
+\end{tabular}\\
+\renewcommand{\arraystretch}{1.5}
+\subsubsection*{Bsp. Partialbruchzerlegung:}
+\begin{tabular}{l l}
+    $(1)$   & $ f(x) = \frac{1}{a^2+x^2} \quad \Rightarrow \quad (n < m)$\\
+    $(2)$   & $a^2-x^2 = (a + x)(a - x)$\\
+    $(3)$   & $\frac{1}{a^2+x^2}  = \frac{A}{a + x} + \frac{B}{a - x}$\\
+    $(3.1)$ & $\frac{1}{a^2+x^2} = \frac{A(a - x) + B(a + x)}{a^2+x^2}$\\
+    $(3.2)$ & $1 = A(a - x) + B(a + x)$\\
+    $(3.3)$ & $x = a \;\;\Rightarrow B(2a) = 1 \Rightarrow B = \frac{1}{2a}$\\
+            & $x = -a  \Rightarrow A(2a) = 1 \Rightarrow A = \frac{1}{2a}$\\
+\end{tabular}\\
+
+%----------------------------------------------------------------------------------------------
+%--------------------------------     2.11 Trig. Funktionen     -------------------------------
+%----------------------------------------------------------------------------------------------
+\subsection{Trigonometrische Funktionen}{77-89}
+
+\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{llll}
+
+    $\sin(x)$:      & $D_f=[-\frac{\pi}{2},\frac{\pi}{2}]$ & $\rightarrow$ &  $W_f=[-1,1]$ \\
+    $\cos(x)$:      & $D_f=[0,\pi]$ & $\rightarrow$ &  $W_f=[-1,1]$  \\
+    $\tan(x)$:      & $D_f=(-\frac{\pi}{2},\frac{\pi}{2})$ & $\rightarrow$ & $W_f=\mathbb{R}$\\
+    $\cot(x)$:      & $D_f=(0,\pi)$ & $\rightarrow$ &  $W_f=\mathbb{R}$ \\
+    \\
+    $\arcsin(x)$:   & $D_f=[-1,1] $ & $\rightarrow$ & $ W_f=[-\frac{\pi}{2},\frac{\pi}{2}]$ \\
+    $\arccos(x)$:   & $D_f=[-1,1]$ & $\rightarrow$ &  $W_f=[0,\pi]$ \\
+    $\arctan(x)$:   & $D_f=\mathbb{R}$ & $\rightarrow$ &  $W_f=(-\frac{\pi}{2},\frac{\pi}{2})$ \\
+    $\mathrm{arccot}(x)$: & $D_f=[-1,1]$ & $\rightarrow$ &  $W_f=(0,\pi)$ \\		
+\end{tabular}\\
+
+\subsubsection{Wichtige Formeln:}
+\renewcommand{\arraystretch}{1.6}
+\begin{tabular}{lll}
+    $ \sin\alpha = \sin x = \sin (180^\circ-\alpha)$ & & $ \cos\alpha = \cos x = \cos(180^\circ-\alpha)$\\
+    $ \sin\alpha = \cos x = \cos (90^\circ-\alpha)$ & & $ \cos\alpha = \sin x = \sin(90^\circ-\alpha)$\\
+    $ \tan\alpha = \frac{\sin\alpha}{\cos\alpha} = \frac{m_1-m_2}{1+m_1m_2}$ & & $\cot\alpha = \frac{\cos\alpha}{\sin\alpha}= \frac{1+m_1m_2}{m_2-m_1}$\\
+    $ \sin(\alpha \pm \beta) = \sin\alpha\cos\beta \pm \cos\alpha\sin\beta$ & & $ \cos(\alpha \pm \beta) = \cos\alpha\sin\beta \mp \sin\alpha\cos\beta$\\
+    $ \sin^2 \alpha + \cos^2 \alpha = 1$ & &$ \sec^2 \alpha - \tan^2 \alpha = 1$
+\end{tabular}\\
+\begin{tabular}{l}
+    $m_1 m_2 = -1 \quad \Longleftrightarrow \quad m_1 \perp m_2 \quad \Longleftrightarrow \quad m_{tangente} \perp m_{normale}$ 
+\end{tabular}
