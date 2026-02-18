@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.1.26)  13 FEB 2026 18:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.1.26)  17 FEB 2026 23:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/mnt/c/Users/magae_ty0qkbb/spick/semester1/An1a/main.tex
-(/mnt/c/Users/magae_ty0qkbb/spick/semester1/An1a/main.tex
+**/mnt/c/Users/magae_ty0qkbb/spick/semester1/An1b/main.tex
+(/mnt/c/Users/magae_ty0qkbb/spick/semester1/An1b/main.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
 (/usr/share/texlive/texmf-dist/tex/latex/extsizes/extarticle.cls
@@ -1171,250 +1171,71 @@ LaTeX Font Info:    Trying to load font information for U+rsfs on input line 36.
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 contour: Using real outline for `\url {}' on input line 36.
-(./sections/01_Reelle_Zahlen.tex
+(./sections/01_differenzialrechnungen.tex
 LaTeX Font Info:    Font shape `T1/txr/b/n' in size <10.95> not available
-(Font)              Font shape `T1/txr/bx/n' tried instead on input line 6.
-LaTeX Font Info:    Font shape `T1/txr/b/n' in size <10> not available
-(Font)              Font shape `T1/txr/bx/n' tried instead on input line 16.
+(Font)              Font shape `T1/txr/bx/n' tried instead on input line 4.
 LaTeX Font Info:    Font shape `T1/txr/b/n' in size <7> not available
-(Font)              Font shape `T1/txr/bx/n' tried instead on input line 16.
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--38
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--38
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 39--61
-
- []
-
+(Font)              Font shape `T1/txr/bx/n' tried instead on input line 4.
+LaTeX Font Info:    Font shape `T1/txr/b/n' in size <10> not available
+(Font)              Font shape `T1/txr/bx/n' tried instead on input line 13.
 LaTeX Font Info:    Font shape `T1/txr/b/n' in size <8> not available
-(Font)              Font shape `T1/txr/bx/n' tried instead on input line 65.
+(Font)              Font shape `T1/txr/bx/n' tried instead on input line 21.
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--72
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 78--85
+Underfull \hbox (badness 10000) in paragraph at lines 17--24
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 93--118
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 120--124
-
- []
-
-LaTeX Font Info:    Trying to load font information for TS1+txr on input line 180.
+LaTeX Font Info:    Trying to load font information for TS1+txr on input line 35.
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 )
-Underfull \hbox (badness 10000) in paragraph at lines 178--183
+<images/konvergenz-divergenz.PNG, id=42, 838.13126pt x 563.60562pt>
+File: images/konvergenz-divergenz.PNG Graphic file (type png)
+<use images/konvergenz-divergenz.PNG>
+Package pdftex.def Info: images/konvergenz-divergenz.PNG  used on input line 64.
+(pdftex.def)             Requested size: 273.14647pt x 183.67705pt.
+
+contour: Using real outline for `1.4.1\ ' on input line 73.
+contour: Using real outline for `Elementare Regeln' on input line 73.
+contour: Using real outline for `1.4.2\ ' on input line 86.
+contour: Using real outline for `Produktregel' on input line 86.
+contour: Using real outline for `1.4.3\ ' on input line 91.
+contour: Using real outline for `Quotientenregel' on input line 91.
+contour: Using real outline for `1.4.4\ ' on input line 97.
+contour: Using real outline for `Kettenregel' on input line 97.
+contour: Using real outline for `1.4.5\ ' on input line 101.
+contour: Using real outline for `Allgemeine Logarithmus-Ableitung' on input line 101.
+contour: Using real outline for `1.4.6\ ' on input line 106.
+contour: Using real outline for `Umkehrfunktion' on input line 106.
+contour: Using real outline for `Beispiel: Approximationsfehler' on input line 154.
+) (./sections/02_Taylor-Theory.tex
+Underfull \hbox (badness 10000) in paragraph at lines 183--1
 
  []
 
-contour: Using real outline for `\textbf {Beispiel: Vollständige Induktion}' on input line 233.
+) (./sections/03_Kurvendiskussionen.tex) (./sections/04_Integralrechnen.tex) [1
 
-Underfull \hbox (badness 10000) in paragraph at lines 236--250
-
- []
-
-) (./sections/02_Funktionen.tex
-Overfull \hbox (5.79245pt too wide) in paragraph at lines 17--21
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 41--53
-
- []
-
-contour: Using real outline for `\textbf {Beispiel: Transformation}' on input line 55.
-
-Underfull \hbox (badness 10000) in paragraph at lines 55--56
-
- []
-
-
-Overfull \hbox (1.2935pt too wide) in paragraph at lines 77--82
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--100
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--114
-[][]
- []
-
-[1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}]
-contour: Using real outline for `2.8.1\ ' on input line 141.
-contour: Using real outline for `Vorgehen Hornerschema' on input line 141.
-
-Underfull \hbox (badness 10000) in paragraph at lines 152--169
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 152--169
-
- []
-
-contour: Using real outline for `Bsp. Hornerschema: \tmspace +\thickmuskip {.2777em}\tmspace +\thickmuskip {.2777em} $x^3+x-10=0$' on input line 171.
-contour: Using real outline for `2.11.1\ ' on input line 245.
-contour: Using real outline for `Vorgehen Partialbruchzerlegung' on input line 245.
-
-Underfull \hbox (badness 10000) in paragraph at lines 245--259
-
- []
-
-contour: Using real outline for `2.11.2\ ' on input line 259.
-contour: Using real outline for `Fälle Partialbruchzerlegung:' on input line 259.
-
-Overfull \hbox (2.75049pt too wide) in paragraph at lines 261--268
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 261--268
-
- []
-
-contour: Using real outline for `Bsp. Partialbruchzerlegung:' on input line 268.
-
-Underfull \hbox (badness 10000) in paragraph at lines 268--277
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 284--296
-
- []
-
-contour: Using real outline for `2.12.1\ ' on input line 298.
-contour: Using real outline for `Wichtige Formeln:' on input line 298.
-) (./sections/03_FolgenundReihen.tex
-Overfull \hbox (0.89258pt too wide) in paragraph at lines 18--23
-[][] 
- []
-
-contour: Using real outline for `3.2.1\ ' on input line 31.
-contour: Using real outline for `Beschränktheit' on input line 31.
-contour: Using real outline for `3.2.2\ ' on input line 36.
-contour: Using real outline for `Monotonie' on input line 36.
-
-Underfull \hbox (badness 10000) in paragraph at lines 36--48
-
- []
-
-contour: Using real outline for `3.3.1\ ' on input line 60.
-contour: Using real outline for `Konvergenz' on input line 60.
-contour: Using real outline for `3.3.2\ ' on input line 67.
-contour: Using real outline for `Bestimmt divergent gegen +$\infty $' on input line 67.
-contour: Using real outline for `3.3.3\ ' on input line 72.
-contour: Using real outline for `Bestimmt divergent gegen -$\infty $' on input line 72.
-contour: Using real outline for `3.3.4\ ' on input line 77.
-contour: Using real outline for `Unbestimmt divergent' on input line 77.
-[2]
-contour: Using real outline for `3.5.1\ ' on input line 106.
-contour: Using real outline for `Bestimmte Formen' on input line 106.
-contour: Using real outline for `3.5.2\ ' on input line 145.
-contour: Using real outline for `Unbestimmte Formen' on input line 145.
-
-Underfull \hbox (badness 10000) in paragraph at lines 163--168
-
- []
-
-contour: Using real outline for `Beispiel: Grenzwert von rekursiver Folge' on input line 185.
-) (./sections/04_Grenzwerte.tex
-contour: Using real outline for `4.2.1\ ' on input line 32.
-contour: Using real outline for `Konvergenz von $f(x)$ \hspace {0.3cm}$\Rightarrow $ \hspace {0.3cm}1.2 Umgebung' on input line 32.
-contour: Using real outline for `4.2.2\ ' on input line 42.
-contour: Using real outline for `Bestimmte Divergenz von $y = f(x)$' on input line 42.
-<images/stetigkeit.PNG, id=234, 1862.96pt x 1511.6475pt>
-File: images/stetigkeit.PNG Graphic file (type png)
-<use images/stetigkeit.PNG>
-Package pdftex.def Info: images/stetigkeit.PNG  used on input line 64.
-(pdftex.def)             Requested size: 267.68236pt x 217.18808pt.
-contour: Using real outline for `4.4.1\ ' on input line 77.
-contour: Using real outline for `Bisektion (Intervallschachtelung)' on input line 77.
-
-Overfull \hbox (7.16864pt too wide) in paragraph at lines 81--93
-[][] 
- []
-
-contour: Using real outline for `Bsp. Asymptotenbestimmung' on input line 147.
-
-Overfull \hbox (2.85321pt too wide) in paragraph at lines 148--152
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 148--152
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 153--157
-
- []
-
-contour: Using real outline for `4.7.1\ ' on input line 181.
-contour: Using real outline for `Exponentialfunktion {\relax \fontsize {7}{8}\selectfont \abovedisplayskip 5\p@ plus2\p@ minus2\p@ \abovedisplayshortskip \z@ plus1\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 6\p@ plus2\p@ minus3\p@ \itemsep \parsep {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip (S. 73)}' on input line 181.
-[3 <./images/stetigkeit.PNG>]
-<images/exp-funktion.PNG, id=265, 350.81062pt x 269.50688pt>
-File: images/exp-funktion.PNG Graphic file (type png)
-<use images/exp-funktion.PNG>
-Package pdftex.def Info: images/exp-funktion.PNG  used on input line 186.
-(pdftex.def)             Requested size: 116.76894pt x 89.70654pt.
-
-contour: Using real outline for `4.7.2\ ' on input line 205.
-contour: Using real outline for `Hyperbolische Funktionen {\relax \fontsize {7}{8}\selectfont \abovedisplayskip 5\p@ plus2\p@ minus2\p@ \abovedisplayshortskip \z@ plus1\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 6\p@ plus2\p@ minus3\p@ \itemsep \parsep {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip (S. 89)}' on input line 205.
-contour: Using real outline for `4.7.3\ ' on input line 220.
-contour: Using real outline for `Area-Funktionen (Umkehrung Hyperbolische. F.) {\relax \fontsize {7}{8}\selectfont \abovedisplayskip 5\p@ plus2\p@ minus2\p@ \abovedisplayshortskip \z@ plus1\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 6\p@ plus2\p@ minus3\p@ \itemsep \parsep {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip (S. 93)}' on input line 220.
-contour: Using real outline for `4.7.4\ ' on input line 231.
-contour: Using real outline for `Logarithmusfunktion {\relax \fontsize {7}{8}\selectfont \abovedisplayskip 5\p@ plus2\p@ minus2\p@ \abovedisplayshortskip \z@ plus1\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 6\p@ plus2\p@ minus3\p@ \itemsep \parsep {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip (S. 73)}' on input line 231.
-<images/ln-funktion.PNG, id=267, 356.33125pt x 254.45062pt>
-File: images/ln-funktion.PNG Graphic file (type png)
-<use images/ln-funktion.PNG>
-Package pdftex.def Info: images/ln-funktion.PNG  used on input line 234.
-(pdftex.def)             Requested size: 116.76894pt x 83.38269pt.
-) [4 <./images/exp-funktion.PNG> <./images/ln-funktion.PNG>] (./main.aux)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc} <./images/konvergenz-divergenz.PNG>] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: FAB588639AC3447103CB812F9B5F8C79;7592.
+(rerunfilecheck)             Checksum: E3BCCACD1FB933A16125BA95EAF0C9C0;1657.
  ) 
 Here is how much of TeX's memory you used:
- 46441 strings out of 474222
- 1053349 string characters out of 5748733
- 2065975 words of memory out of 5000000
- 67734 multiletter control sequences out of 15000+600000
- 628891 words of font info for 165 fonts, out of 8000000 for 9000
+ 46079 strings out of 474222
+ 1047852 string characters out of 5748733
+ 2024975 words of memory out of 5000000
+ 67476 multiletter control sequences out of 15000+600000
+ 613521 words of font info for 127 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 88i,19n,90p,819b,1195s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (4 pages, 801995 bytes).
+ 88i,15n,90p,819b,1026s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (1 page, 361632 bytes).
 PDF statistics:
- 363 PDF objects out of 1000 (max. 8388607)
- 321 compressed objects within 4 object streams
- 125 named destinations out of 1000 (max. 500000)
- 332 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 132 PDF objects out of 1000 (max. 8388607)
+ 104 compressed objects within 2 object streams
+ 30 named destinations out of 1000 (max. 500000)
+ 82 words of extra memory for PDF output out of 10000 (max. 10000000)
 
