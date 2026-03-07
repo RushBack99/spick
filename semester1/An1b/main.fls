@@ -681,6 +681,16 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxptmri.tfm
 INPUT ./sections/04_Integralrechnen.tex
 INPUT ./sections/04_Integralrechnen.tex
 INPUT sections/04_Integralrechnen.tex
+INPUT ./images/untersumme.jpg
+INPUT ./images/untersumme.jpg
+INPUT ./images/untersumme.jpg
+INPUT ./images/untersumme.jpg
+INPUT ./images/untersumme.jpg
+INPUT ./images/obersumme.jpg
+INPUT ./images/obersumme.jpg
+INPUT ./images/obersumme.jpg
+INPUT ./images/obersumme.jpg
+INPUT ./images/obersumme.jpg
 INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out

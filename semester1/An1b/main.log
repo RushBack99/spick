@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.1.26)  4 MAR 2026 20:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.1.26)  7 MAR 2026 22:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1189,7 +1189,7 @@ LaTeX Font Info:    Trying to load font information for TS1+txr on input line 35
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 )
-<images/konvergenz-divergenz.PNG, id=114, 838.13126pt x 563.60562pt>
+<images/konvergenz-divergenz.PNG, id=126, 838.13126pt x 563.60562pt>
 File: images/konvergenz-divergenz.PNG Graphic file (type png)
 <use images/konvergenz-divergenz.PNG>
 Package pdftex.def Info: images/konvergenz-divergenz.PNG  used on input line 64.
@@ -1207,7 +1207,7 @@ contour: Using real outline for `1.4.5\ ' on input line 101.
 contour: Using real outline for `Allgemeine Logarithmus-Ableitung' on input line 101.
 contour: Using real outline for `1.4.6\ ' on input line 106.
 contour: Using real outline for `Umkehrfunktion' on input line 106.
-<images/differenzial.PNG, id=116, 717.68124pt x 499.8675pt>
+<images/differenzial.PNG, id=128, 717.68124pt x 499.8675pt>
 File: images/differenzial.PNG Graphic file (type png)
 <use images/differenzial.PNG>
 Package pdftex.def Info: images/differenzial.PNG  used on input line 145.
@@ -1225,12 +1225,12 @@ Overfull \hbox (1.17644pt too wide) in paragraph at lines 89--97
  []
 
 ) (./sections/03_Kurvendiskussionen.tex
-<images/rolle.PNG, id=155, 1089.06876pt x 333.74687pt>
+<images/rolle.PNG, id=167, 1089.06876pt x 333.74687pt>
 File: images/rolle.PNG Graphic file (type png)
 <use images/rolle.PNG>
 Package pdftex.def Info: images/rolle.PNG  used on input line 21.
 (pdftex.def)             Requested size: 245.83015pt x 75.33424pt.
-<images/mittelwertsatz.PNG, id=156, 753.31438pt x 517.935pt>
+<images/mittelwertsatz.PNG, id=168, 753.31438pt x 517.935pt>
 File: images/mittelwertsatz.PNG Graphic file (type png)
 <use images/mittelwertsatz.PNG>
 Package pdftex.def Info: images/mittelwertsatz.PNG  used on input line 35.
@@ -1273,27 +1273,39 @@ Overfull \hbox (2.85321pt too wide) in paragraph at lines 263--267
 [][] 
  []
 
-) (./sections/04_Integralrechnen.tex) [3] (./main.aux)
+) (./sections/04_Integralrechnen.tex
+contour: Using real outline for `US' on input line 29.
+<images/untersumme.jpg, id=196, 280.04625pt x 324.21124pt>
+File: images/untersumme.jpg Graphic file (type jpg)
+<use images/untersumme.jpg>
+Package pdftex.def Info: images/untersumme.jpg  used on input line 34.
+(pdftex.def)             Requested size: 55.06558pt x 63.74779pt.
+<images/obersumme.jpg, id=197, 267.49937pt x 322.70563pt>
+File: images/obersumme.jpg Graphic file (type jpg)
+<use images/obersumme.jpg>
+Package pdftex.def Info: images/obersumme.jpg  used on input line 44.
+(pdftex.def)             Requested size: 55.06558pt x 66.4259pt.
+) [3 <./images/untersumme.jpg> <./images/obersumme.jpg>] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 3EE9CD88001E6CE71CB1042B39DCC86D;5279.
+(rerunfilecheck)             Checksum: BEAD7583902052BC0E2A3916E6F8A0F6;5880.
  ) 
 Here is how much of TeX's memory you used:
- 46314 strings out of 474222
- 1051505 string characters out of 5748733
+ 46337 strings out of 474222
+ 1052002 string characters out of 5748733
  2030975 words of memory out of 5000000
- 67659 multiletter control sequences out of 15000+600000
+ 67676 multiletter control sequences out of 15000+600000
  626998 words of font info for 163 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 88i,20n,90p,817b,1143s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 88i,20n,90p,817b,1155s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txexa.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (3 pages, 738009 bytes).
+Output written on main.pdf (3 pages, 805793 bytes).
 PDF statistics:
- 260 PDF objects out of 1000 (max. 8388607)
- 221 compressed objects within 3 object streams
- 75 named destinations out of 1000 (max. 500000)
- 241 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 278 PDF objects out of 1000 (max. 8388607)
+ 237 compressed objects within 3 object streams
+ 81 named destinations out of 1000 (max. 500000)
+ 275 words of extra memory for PDF output out of 10000 (max. 10000000)
 

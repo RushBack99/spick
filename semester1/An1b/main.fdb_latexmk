@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1772651059.63737 "/mnt/c/Users/magae_ty0qkbb/ECE/semester1/An1b/main.tex" "main.pdf" "main" 1772651064.7493 0
+["pdflatex"] 1772919379.12469 "/mnt/c/Users/magae_ty0qkbb/ECE/semester1/An1b/main.tex" "main.pdf" "main" 1772919383.89439 0
   "/etc/texmf/web2c/texmf.cnf" 1769431356.78123 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/mnt/c/Users/magae_ty0qkbb/ECE/semester1/An1b/main.tex" 1771439054.12321 1839 e4ecdc26cd98943110be8681e09974e2 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -318,15 +318,17 @@
   "images/differenzial.PNG" 1771949799.66274 110400 1041e9d342d78a19434e76b5d91cd8c3 ""
   "images/konvergenz-divergenz.PNG" 1771439054.02308 290230 cbf340da092bcc08822c3b3b079d7d1c ""
   "images/mittelwertsatz.PNG" 1772376650.94651 150028 1c9aff19b96aca1c56dcad18aebb8ddb ""
+  "images/obersumme.jpg" 1772900589.849 31446 df154fcbadf013d0a0afdc6627288e8c ""
   "images/rolle.PNG" 1772375895.40185 118728 e0353f59b2d57088803b5c5a71be2e88 ""
-  "main.aux" 1772651063.06619 11775 3672b3c7f01201b675c1b4809a76812d "pdflatex"
-  "main.out" 1772651063.0812 5279 3ee9cd88001e6ce71cb1042b39dcc86d "pdflatex"
+  "images/untersumme.jpg" 1772900595.37935 31458 091030787428830b2c96acb1021d4fa4 ""
+  "main.aux" 1772919383.63696 12581 8ad0244b790f047d78b1789d59e511b8 "pdflatex"
+  "main.out" 1772919383.64157 5880 bead7583902052bc0e2a3916e6f8a0f6 "pdflatex"
   "main.tex" 1771439054.12321 1839 e4ecdc26cd98943110be8681e09974e2 ""
   "preamble.tex" 1771439054.13904 26033 79baf711962193c9fe9d643bb4e15d73 ""
   "sections/01_differenzialrechnungen.tex" 1772461995.85872 12346 683e8bb5eb676d7460ae8cc9e4f5aa60 ""
   "sections/02_Taylor-Theory.tex" 1772361823.7661 4897 7cea1fc31e1de8084368d037d768c9ad ""
   "sections/03_Kurvendiskussionen.tex" 1772644337.24332 11970 7a413f5d4f2ac4fba141ca93fe46b566 ""
-  "sections/04_Integralrechnen.tex" 1772651053.14184 1161 7cfd0486402111bb055738e4d9599583 ""
+  "sections/04_Integralrechnen.tex" 1772919374.10906 5154 9b4f8f138a78aa7430bb2d5fe17385c1 ""
   (generated)
   "main.aux"
   "main.log"
