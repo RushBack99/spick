@@ -3,7 +3,7 @@
 Click the link below to open the PDF direcly:
 
 ## Lineare Algebra:   
->Lineare Algebra &nbsp; [LinAlg](./semester1) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Komplexe Zahlen und Fourierreihen &nbsp; [KomFou](./semester2)
+>Lineare Algebra &nbsp; [LinAlg](./semester1/LinAlg/main.pdf) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Komplexe Zahlen und Fourierreihen &nbsp; [KomFou](./semester2)
 
 ## Analysis:   
 >Analysis 1a: Grenzwerte &nbsp;&nbsp;&nbsp; [An1a](./semester1/An1a/main.pdf) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Analysis 2a: Integralrechnen &nbsp; [An2a](./semester2)  
