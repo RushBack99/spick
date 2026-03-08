@@ -3,7 +3,11 @@
 %----------------------------------------------------------------------------------------------
 \section{Integralrechnung}{493}
 
+Eine Funktion $F(x)$ heißt Stammfunktion von $f(x)$, wenn ihre Ableitung wieder $f(x)$ ist. Das unbestimmte Integral von $f(x)$ ist dann
+
 $$ \int f(x) \,  \diff x = F(x) + C  \quad \quad \Longleftrightarrow \quad \quad F'(x) = \frac{\diff \:F(x)}{\diff x} = f(x)$$
+
+Beim Ableiten der Stammfunktion verschwindet die Konstante $C$, da die Ableitung einer Konstanten $0$ ist.
 
 
 %----------------------------------------------------------------------------------------------
@@ -79,28 +83,17 @@ $$ \text{RS} = \sum \limits_{i=0}^{n-1} f(\xi) \, \Delta x_i  \qquad \diff (Z) \
 
 \subsection{Riemann-Integral}{507}
 
-\begin{minipage}{0.5\columnwidth}
+\begin{minipage}{0.4\columnwidth}
     $$ \text{Notation:} \quad \int \limits_{a}^{b} f(x) \, \diff x $$
 \end{minipage}				
 \hfill
-\begin{minipage}{0.48\columnwidth}
+\begin{minipage}{0.55\columnwidth}
     \begin{tabular}{ll}
-    $a$, $b$    & Integrationsgrenzen \\
-    $f(x)$      & Integrand
+                & beschränkt $[a;b]$\\
+    Bedingung:  & bedingt Stetig\\
+                & wenige unstetigkeit stellen
     \end{tabular}
 \end{minipage}	
-
-
-%----------------------------------------------------------------------------------------------
-%-----------------------------     4.3 Flächen unter Integralen     ---------------------------
-%----------------------------------------------------------------------------------------------
-\subsection{Flächen unter Integralen}
-
-\textbf{Voraussetzung: $f: [a;b] \to \mathbb{R}$ und $\mathbb{W}_f$ beschränkt}
-$$ \text{Fläche:} \quad A = \int \limits_{a}^{b} \abs{ f(x) } \, \diff x $$
-\textcolor{red}{Der Inhalt des Betrags muss auf Vorzeichen untersucht werden!} \\
-Negative Vorzeichen müssen über die x-Achse geklappt werden: \\
-$\vert x^2 - x \vert = -(x^2 - x)$ falls $x > x^2$ 
 
 
 %----------------------------------------------------------------------------------------------
@@ -121,4 +114,81 @@ $\vert x^2 - x \vert = -(x^2 - x)$ falls $x > x^2$
 \end{minipage}
 
 
+%----------------------------------------------------------------------------------------------
+%-----------------------------     4.5 Flächen unter Integralen     ---------------------------
+%----------------------------------------------------------------------------------------------
+\subsection{Flächen unter Integralen}
 
+\textbf{Voraussetzung: $f: [a;b] \to \mathbb{R}$ und $\mathbb{W}_f$ beschränkt}
+$$ \text{Fläche:} \quad A = \int \limits_{a}^{b} \abs{ f(x) } \, \diff x $$
+\textcolor{red}{Der Inhalt des Betrags muss auf Vorzeichen untersucht werden!} \\
+Negative Vorzeichen müssen über die x-Achse geklappt werden: \\
+$\vert x^2 - x \vert = -(x^2 - x)$ falls $x > x^2$ 
+
+
+%----------------------------------------------------------------------------------------------
+%----------------------------------     4.6 Integralregeln     --------------------------------
+%----------------------------------------------------------------------------------------------
+\subsection{Integralregeln}{496-499}
+
+\subsubsection{Elementare Regeln An1b}
+
+\vspace{-0.2cm}
+\renewcommand{\arraystretch}{1.6}
+\begin{tabular}{llll}
+    Konstanten:     & $f(x) = c \quad$ konst                & $\int f(x) \diff x$                      & $F(x) = cx + C$\\
+    Faktor:         & $f(x) = \alpha \cdot x^\beta$             & $\alpha \int f(x) \diff x$           & $F(x) = \alpha \cdot \frac{x^\beta}{\beta} + C$ \\
+    Summen:         & $f(x) = u(x) + v(x) $                 & $\int f(x) \diff x$                      & $\int u(x) \diff x + \int v(x) \diff x$    
+\end{tabular}
+
+
+%----------------------------------------------------------------------------------------------
+%------------------------------     4.7 Wichtige Integrale    ---------------------------------
+%----------------------------------------------------------------------------------------------
+\subsection{Wichtige Integrale}{446}
+
+\begin{tabular}{|ll|ll||ll|ll|}
+    \hline
+    Funktionen                                 && Integrierung                             && Funktionen                                 && Integrierung                                                    &\\
+    \hline
+    $ x^n$                                     && $ \frac{x^{n+1}}{n+1} $                  && $ \frac{1}{cosh^2 x} $                     && $ \tanh x $                                                     &\\
+    $ \frac{1}{x} $                            && $ \ln \abs{x} $                          && $ \frac{1}{\sinh^2 x}$                     && $ -\coth x $                                                    &\\
+    $ e^x $                                    && $ e^x $                                  &&                                            &&                                                                 &\\
+    $ a^x $                                    && $ \frac{a^x}{\ln a} $                    && $ \frac{1}{\alpha^2 + x^2}$                && $ \frac{1}{\alpha} \arctan \frac{x}{\alpha} $                   &\\
+    $ \sin x $                                 && $ -\cos x $                              && $ \frac{1}{\alpha^2 - x^2}$                && $ \frac{1}{2\alpha} \ln \frac{\alpha + x}{\alpha - x} $         &\\
+    $ \cos $                                   && $ \sin x $                               &&                                            && $ (\abs{x} < \alpha, \; 0 < \alpha)$                            &\\
+    $ \tan x $                                 && $ -\ln \abs{\cos x} $                    && $ \frac{1}{x^2 - \alpha^2}$                && $ \frac{1}{2\alpha} \ln \frac{\alpha - x}{\alpha + x} $         &\\
+    $ \cot x $                                 && $ \ln \abs{\sin x}$                      &&                                            && $ (\abs{x} > \alpha, \; 0 > \alpha)$                            &\\
+    $ \frac{1}{cos^2 x} $                      && $ \tan x $                               && $ \frac{1}{\sqrt{\alpha^2 + x^2}}$         && $ \ln \abs{x + \sqrt{\alpha^2 + x^2}}$                          &\\
+    $ \frac{1}{\sin^2 x}$                      && $ -\cot x $                              &&                                            && $ (0 < a)$                                                      &\\
+    $ \sinh x$                                 && $ \cosh x $                              && $ \frac{1}{\sqrt{\alpha^2 - x^2}}$         && $ \arcsin \frac{x}{\alpha} $                                    &\\
+    $ \cosh x$                                 && $ \sinh x $                              &&                                            && $ (\abs{x} < \alpha, \: 0 < \alpha) $                           &\\
+    $ \tanh x $                                && $ \ln \abs{\cosh x} $                    && $ \frac{1}{\sqrt{x^2 - \alpha^2}}$         && $ \ln \abs{x + \sqrt{\alpha^2 - x^2}} $                         &\\
+    $ \coth x $                                && $ \ln \abs{\sinh x} $                    &&                                            && $ (\abs{x} > \alpha, \: 0 > \alpha) $                           &\\
+    \hline
+\end{tabular}
+
+
+%----------------------------------------------------------------------------------------------
+%--------------------------------     4.8 Mittelwertsatz    -----------------------------------
+%----------------------------------------------------------------------------------------------	
+\subsection{Mittelwertsatz}{510}
+
+\textbf{Voraussetzung: $f: [a;b] \to \mathbb{R}$ und $\mathbb{W}_f$ beschränkt und stetig}
+
+Die Fläche unter der Funktion $f(x)$ kann an mind. einem Punkt $\xi$ als Rechteck dargestellt werden. \\
+Es muss gelten: $\xi \in (a;b)$
+
+\begin{minipage}[c]{0.40\columnwidth}
+    \includegraphics[width=0.95\columnwidth]{images/MWS-integral.PNG}
+\end{minipage}
+\hfill				
+\begin{minipage}[c]{0.55\columnwidth}
+    \raggedright
+    \textbf{Fläche = Mittelwert $\bm{\cdot}$ Intervall-Länge}
+    
+    $\frac{1}{b-a} \int \limits_{a}^{b} f(x) \, dx = f(\xi)$ 
+
+    $ \int \limits_{a}^{b} f(x) \, \diff x = (b-a) \cdot f(\xi)$
+    $ (b-a) \cdot h = (b-a) \cdot f(\xi)$ 
+\end{minipage}
