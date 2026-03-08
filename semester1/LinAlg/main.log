@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.1.26)  8 MAR 2026 21:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.1.26)  8 MAR 2026 21:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1198,27 +1198,31 @@ contour: Using real outline for `1.2.3\ ' on input line 204.
 contour: Using real outline for `Division' on input line 204.
 contour: Using real outline for `1.2.4\ ' on input line 209.
 contour: Using real outline for `Zusammenfassung / Erweiterung der Rechenregeln' on input line 209.
+contour: Using real outline for `Beispiel: Entwicklungssatz für 2 x 2 Matritzen' on input line 279.
+contour: Using real outline for `Beispiel: Lineares Gleichungssystem als Matrix' on input line 297.
+contour: Using real outline for `1.5.1\ ' on input line 319.
+contour: Using real outline for `Lineare Gleichungssysteme lösen' on input line 319.
 ) [2] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 04DCCC9C504FD7B6D4E80F256016C9CD;600.
+(rerunfilecheck)             Checksum: 67C4801F7547C3AD92748583726B7205;1259.
  ) 
 Here is how much of TeX's memory you used:
- 46077 strings out of 474222
- 1047482 string characters out of 5748733
- 2029975 words of memory out of 5000000
- 67497 multiletter control sequences out of 15000+600000
- 615195 words of font info for 150 fonts, out of 8000000 for 9000
+ 46141 strings out of 474222
+ 1048499 string characters out of 5748733
+ 2076975 words of memory out of 5000000
+ 67543 multiletter control sequences out of 15000+600000
+ 622573 words of font info for 158 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 88i,16n,90p,819b,997s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (2 pages, 60456 bytes).
+ 88i,21n,90p,819b,1135s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (2 pages, 70011 bytes).
 PDF statistics:
- 98 PDF objects out of 1000 (max. 8388607)
- 74 compressed objects within 1 object stream
- 16 named destinations out of 1000 (max. 500000)
- 37 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 134 PDF objects out of 1000 (max. 8388607)
+ 107 compressed objects within 2 object streams
+ 28 named destinations out of 1000 (max. 500000)
+ 69 words of extra memory for PDF output out of 10000 (max. 10000000)
 
