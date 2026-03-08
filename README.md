@@ -20,9 +20,9 @@ Programmieren in C++ &nbsp; [ProgC++](./semester)
 
 ### Drucker-Einstellungen (Campus Rapperswil, Gebäude 1)
 
-![Landscape-Druck_1](/readme_images/landscape_drucken_1.png "Landscape-Druck")
-![Landscape-Druck_2](/readme_images/landscape_drucken_2.png "Landscape-Druck")
-![Landscape-Druck_3](/readme_images/landscape_drucken_3.png "Landscape-Druck")
+![Landscape-Druck_1](/readme_images/landscape_drucken_1.png "Landscape-Druck"){:width="500px"}
+![Landscape-Druck_2](/readme_images/landscape_drucken_2.png "Landscape-Druck"){:width="500px"}
+![Landscape-Druck_3](/readme_images/landscape_drucken_3.png "Landscape-Druck"){:width="500px"}
 
 
 
