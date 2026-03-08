@@ -40,12 +40,7 @@ Es wird allerdings keinen neuen Upload auf Google Drive geben.
 
 ### Fehler melden...
 
-Fehler dürfen gerne in einem neuen [Issue](https://gitlab.com/sstitz/analysis-1b/-/issues) gemeldet werden.
-
-
-### Fehlerkorrekturen und Verbesserungsvorschläge - Danksagung
-
-Die Korrekturen und Ergänzungen von März 2024 basieren auf dem Feedback und den Vorschlägen von Fabian Steiner.
+Fehler dürfen gerne in einem neuen [Issue](https://github.com/RushBack99/ECE/issues) gemeldet werden.
 
 
 ## Informationen zum Template
