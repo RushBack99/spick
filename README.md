@@ -28,7 +28,7 @@ Programmieren in C++ &nbsp; [ProgC++](./semester)
 
 ## Hinweise zur Zusammenfassung
 
-Die auf der Zusammenfassung angegebenen Seitenzahlen beziehen sich auf Bronstein.
+Die auf der Zusammenfassung angegebenen Seitenzahlen der Analysis beziehen sich auf Bronstein.
 
 
 ## Updates Zusammenfassung 
