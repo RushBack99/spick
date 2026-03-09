@@ -55,5 +55,6 @@ Für die Zusammenfassung gilt die [CC BY-NC-SA 4.0](https://creativecommons.org/
 
 ## Credits
 
--An1a Inhalte stammen von [Simone Stitz](https://gitlab.com/sstitz)  
--An1b Inhalte stammen von [Simone Stitz](https://gitlab.com/sstitz)
+- An1a Inhalte stammen von [Simone Stitz](https://gitlab.com/sstitz)  
+- An1b Inhalte stammen von [Simone Stitz](https://gitlab.com/sstitz)
+- LinAlg Inhalte stammen von [Simone Stitz](https://gitlab.com/sstitz)
