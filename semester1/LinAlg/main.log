@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.1.26)  15 MAR 2026 21:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.1.26)  16 MAR 2026 22:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1308,6 +1308,36 @@ File: images/volumen-det.PNG Graphic file (type png)
 <use images/volumen-det.PNG>
 Package pdftex.def Info: images/volumen-det.PNG  used on input line 66.
 (pdftex.def)             Requested size: 259.27399pt x 85.1316pt.
+
+Overfull \hbox (2.47638pt too wide) in paragraph at lines 95--104
+ [][] 
+ []
+
+
+Overfull \hbox (5.30692pt too wide) in paragraph at lines 107--112
+ [][] 
+ []
+
+
+Overfull \hbox (2.38438pt too wide) in paragraph at lines 116--123
+ [][] 
+ []
+
+
+Overfull \hbox (5.30692pt too wide) in paragraph at lines 126--131
+ [][] 
+ []
+
+
+Overfull \hbox (2.70547pt too wide) in paragraph at lines 135--142
+ [][] 
+ []
+
+
+Overfull \hbox (6.74873pt too wide) in paragraph at lines 145--150
+ [][] 
+ []
+
 ) [3 <./images/flaeche-det.PNG> <./images/volumen-det.PNG>] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
@@ -1325,7 +1355,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  88i,21n,96p,792b,1134s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (3 pages, 244696 bytes).
+Output written on main.pdf (3 pages, 245158 bytes).
 PDF statistics:
  223 PDF objects out of 1000 (max. 8388607)
  188 compressed objects within 2 object streams
