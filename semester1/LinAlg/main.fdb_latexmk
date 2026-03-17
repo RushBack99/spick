@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1773697314.32114 "/mnt/c/Users/magae_ty0qkbb/ECE/semester1/LinAlg/main.tex" "main.pdf" "main" 1773697317.69406 0
+["pdflatex"] 1773777924.11368 "/mnt/c/Users/magae_ty0qkbb/ECE/semester1/LinAlg/main.tex" "main.pdf" "main" 1773777927.5662 0
   "/etc/texmf/web2c/texmf.cnf" 1769431356.78123 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/mnt/c/Users/magae_ty0qkbb/ECE/semester1/LinAlg/main.tex" 1773586942.96933 1915 368d48519ce8e5c9056f2583fd9671b0 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -321,13 +321,13 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1769431462 8213560 470246e8ffeab2dcb300da8f83a94e8e ""
   "images/flaeche-det.PNG" 1773588676.20006 98057 d1af2f3c73ebf6dad281c8b86aa43229 ""
   "images/volumen-det.PNG" 1773588681.32218 85456 ef1284b03cf7674a6db52d364cf17e4a ""
-  "main.aux" 1773697316.95599 3729 e713973db2c06f1251c0de0cfa314dee "pdflatex"
-  "main.out" 1773697316.96102 3182 dcc26031a8b14b633bb02374f958b308 "pdflatex"
+  "main.aux" 1773777927.35349 4776 03d8ecee656fa58bd57dc81b15e2c88e "pdflatex"
+  "main.out" 1773777927.35951 3772 66301f5fdabb85055ed3412491c484f0 "pdflatex"
   "main.tex" 1773586942.96933 1915 368d48519ce8e5c9056f2583fd9671b0 ""
-  "main.toc" 1773697316.96402 2132 241ba3bd6495bfbb3275bf5ce0a579e7 "pdflatex"
+  "main.toc" 1773777927.36452 2733 ae342ed8fb99de1b29b4bba6b58db9a2 "pdflatex"
   "preamble.tex" 1773533007.20456 25772 1998c520373628164a94c33ec2625c44 ""
   "sections/01_Lineare_Gleichungssysteme.tex" 1773608364.00151 17396 191797532a77aaec3ca0a34c24bccf49 ""
-  "sections/02_Determinanten.tex" 1773697313.42967 4833 fa8e86a5dfae2468861867ce93f037f3 ""
+  "sections/02_Determinanten.tex" 1773777920.29128 9054 0a345eac5d344522ec223a7701dab364 ""
   (generated)
   "main.aux"
   "main.log"

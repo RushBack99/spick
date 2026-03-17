@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.1.26)  16 MAR 2026 22:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.1.26)  17 MAR 2026 21:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1291,7 +1291,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 604--612
 [2]) (./sections/02_Determinanten.tex
 contour: Using real outline for `2.3.1\ ' on input line 55.
 contour: Using real outline for `Fläche' on input line 55.
-<images/flaeche-det.PNG, id=137, 629.35126pt x 340.27126pt>
+<images/flaeche-det.PNG, id=158, 629.35126pt x 340.27126pt>
 File: images/flaeche-det.PNG Graphic file (type png)
 <use images/flaeche-det.PNG>
 Package pdftex.def Info: images/flaeche-det.PNG  used on input line 58.
@@ -1303,7 +1303,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
 
-<images/volumen-det.PNG, id=139, 602.25pt x 197.73875pt>
+<images/volumen-det.PNG, id=160, 602.25pt x 197.73875pt>
 File: images/volumen-det.PNG Graphic file (type png)
 <use images/volumen-det.PNG>
 Package pdftex.def Info: images/volumen-det.PNG  used on input line 66.
@@ -1338,27 +1338,34 @@ Overfull \hbox (6.74873pt too wide) in paragraph at lines 145--150
  [][] 
  []
 
+contour: Using real outline for `2.5.1\ ' on input line 174.
+contour: Using real outline for `Sarrus für 2 x 2 Matrix' on input line 174.
+contour: Using real outline for `2.5.2\ ' on input line 185.
+contour: Using real outline for `Sarrus für 3 x 3 Matrix' on input line 185.
+contour: Using real outline for `2.7.1\ ' on input line 252.
+contour: Using real outline for `Beispiel Entwicklungssatz' on input line 252.
+contour: Using real outline for `Beispiel: Cramersche Regel' on input line 294.
 ) [3 <./images/flaeche-det.PNG> <./images/volumen-det.PNG>] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: DCC26031A8B14B633BB02374F958B308;3182.
+(rerunfilecheck)             Checksum: 66301F5FDABB85055ED3412491C484F0;3772.
  ) 
 Here is how much of TeX's memory you used:
- 48311 strings out of 474222
- 1121849 string characters out of 5748733
+ 48341 strings out of 474222
+ 1122176 string characters out of 5748733
  2117975 words of memory out of 5000000
- 69676 multiletter control sequences out of 15000+600000
+ 69682 multiletter control sequences out of 15000+600000
  623250 words of font info for 160 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 88i,21n,96p,792b,1134s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 88i,21n,96p,792b,1201s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (3 pages, 245158 bytes).
+Output written on main.pdf (3 pages, 250065 bytes).
 PDF statistics:
- 223 PDF objects out of 1000 (max. 8388607)
- 188 compressed objects within 2 object streams
- 56 named destinations out of 1000 (max. 500000)
- 159 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 271 PDF objects out of 1000 (max. 8388607)
+ 233 compressed objects within 3 object streams
+ 80 named destinations out of 1000 (max. 500000)
+ 191 words of extra memory for PDF output out of 10000 (max. 10000000)
 

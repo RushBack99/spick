@@ -23,3 +23,10 @@
 \contentsline {subsubsection}{\numberline {2.3.1}Fläche}{3}{section*.22}%
 \contentsline {subsubsection}{\numberline {2.3.2}Volumen}{3}{section*.23}%
 \contentsline {subsection}{\numberline {2.4}Allgemeine Berechnung der Determinante}{3}{section*.24}%
+\contentsline {subsection}{\numberline {2.5}Sarrus}{3}{section*.25}%
+\contentsline {subsubsection}{\numberline {2.5.1}Sarrus für 2 x 2 Matrix}{3}{section*.26}%
+\contentsline {subsubsection}{\numberline {2.5.2}Sarrus für 3 x 3 Matrix}{3}{section*.27}%
+\contentsline {subsection}{\numberline {2.6}Rechenregeln für die Determinante}{3}{section*.28}%
+\contentsline {subsection}{\numberline {2.7}Entwicklungssatz}{3}{section*.29}%
+\contentsline {subsubsection}{\numberline {2.7.1}Beispiel Entwicklungssatz}{3}{section*.30}%
+\contentsline {subsection}{\numberline {2.8}Cramersche Regel}{3}{section*.31}%
